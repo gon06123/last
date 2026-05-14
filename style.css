@@ -1,0 +1,684 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Jersey+10&family=Press+Start+2P&display=swap');
+
+
+
+
+html{
+    scroll-behavior: smooth;
+    word-break: keep-all;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 23px;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+body,h1, h2, h3, h4 p{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+h1{
+    font-weight: 900;
+    font-size: 2.0rem;
+    
+    line-height: 1.2;
+}
+
+h2{
+    font-size: 5rem;
+    letter-spacing: -3px;
+    line-height: 1.2;
+    font-weight: 900;
+}
+
+h3, h4{
+    line-height:1.7;
+    font-weight: 600;
+    font-size: 1rem;
+    display: inline;
+    letter-spacing: -1px;
+}
+
+p{
+    line-height:1.7;
+    font-weight: 400;
+    font-size: 1rem;
+    display: inline;
+    letter-spacing: -1px;
+}
+
+.wrap{
+    position: relative;
+    margin: auto;
+    width: 1600px;
+   
+}
+
+
+
+
+
+.img-center{
+    display: flex;
+    justify-content: center;
+}
+
+.texttopspace{
+    padding-top: 22px;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+
+.navbar{
+    position: absolute;
+    align-items: center;
+    background-color: #e7e7e0;
+    height: 100px;
+    width: 100%;
+    top: 20px;
+}
+
+.navlist{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    gap: 192px;
+}
+
+
+.navlist a {
+    color: #1a0089;
+    text-decoration: none;
+    text-decoration-line: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #131936;
+}
+
+
+.intro{
+    position: relative;
+    background-color: #e7e7e0;
+    color:#1a0089;
+    height: 1000px;
+    
+}
+
+.tittlebox{
+    width: 100%;
+    padding-top: 150px;
+    
+}
+
+.tittle{
+    font-family: "Jersey 10", sans-serif;
+    text-align: center;
+    font-size: 400px;
+    line-height: 0.7;
+    letter-spacing: 10px;
+
+     color: #1a0089;
+    text-shadow: 
+        -5px -5px 0 white,  
+         5px -5px 0 white,
+        -5px  5px 0 white,
+         5px  5px 0 white; 
+    
+
+}
+
+.introimg1{
+    position: absolute;
+    top: 450px;
+    width: 300px;
+    height: auto;
+    left: 50%;                 /* 1. 왼쪽 끝을 부모의 50% 지점에 배치 */
+    transform: translateX(-50%); /* 2. 자기 자신의 너비 절반만큼 왼쪽으로 이동 */
+}
+
+
+.introhand1{
+    position: absolute;
+    top: 320px;
+    right: -50px;
+}
+
+.introhand2{
+    position: absolute;
+    top: 300px;
+    left: -50px;
+}
+
+
+
+.pt1{
+    position: relative;
+    background: #e7e7e0;
+    color: #1a0089;
+    height: 900px;
+
+
+}
+
+
+.pt1textbox{
+    position: relative;
+    bottom: -200px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 70px;
+    text-align: center;
+
+    
+}
+
+.wave-svg{
+    position: absolute;
+    justify-content: center; /* 가로 중앙 */
+    align-items: center;     /* 세로 중앙 */
+    bottom: -250px;
+    display: block; /* 주변 요소와의 간격 간섭 방지 */
+
+    z-index: 100;
+  
+}
+
+
+
+.pt2{
+    position: relative;
+    background: #222;
+    color: #e7e7e0;
+    padding-top: 250px;
+    height: 1200px;
+   
+}
+
+.pt2 p{
+    color: #e7e7e0b3;
+}
+
+
+.pt2-bkimg{
+    position: absolute;
+    left: -100px;
+    top: -420px;
+    transform: rotate(5deg);
+    z-index: 5;
+}
+
+
+.pt2textbox{
+    width: 550px;
+    padding-top: 150px;
+    margin-right: 150px;
+    margin-left: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pt3{
+    position: relative;
+    background:#222;
+    height: 1700px;
+    color: #e7e7e0;
+
+}
+
+.pt3 p{
+    color:#e7e7e0b3;  }                    
+
+
+.pt3textbox{
+    position: absolute;
+    width: 460px;
+    top: -50px;
+    margin-left: 150px;
+    margin-right: auto;
+}
+
+.pt3textbox2{
+    position: absolute;
+    width: 100%;
+    top: 870px;
+    z-index: 10;
+    
+}
+
+
+.pt3textbox2 h1{
+   
+    font-family: "Jersey 10", sans-serif;
+    text-align: center;
+    font-size: 400px;
+    line-height: 0.7;
+    letter-spacing: 10px;
+    color: #f0c300;
+    text-shadow: 
+        -5px -5px 0 #e7e7e0,  
+         5px -5px 0 #e7e7e0,
+        -5px  5px 0 #e7e7e0,
+         5px  5px 0 #e7e7e0; 
+}
+
+
+
+.pt3-bkimg{
+    position: absolute;
+    width: 1500px;
+    top: -1000px;
+    right: -250px;
+    transform: rotate(7deg); 
+    z-index: 10;
+    
+}
+
+.pt3-bkimg2{
+    position: absolute;
+    top: 330px;
+    left: -100px;
+    z-index: 4;
+
+    width: 1500px;
+    height: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pt4{
+    position: relative;
+    background: #e7e7e0;
+    color: #1a0089;
+    height: 3500px;
+}
+
+.pt4 p{
+    color: #1a0089b3;
+}
+
+
+
+.pt4textbox1{
+    position: relative;
+    width: 560px;
+    left: 0;
+    padding-top: 400px;
+    z-index: 5;
+
+    
+}
+
+.pt4textbox2{
+    position: relative;
+    width: 650px;
+    padding-top: 1080px;
+    margin: auto;
+    text-align: center;
+    z-index: 5;
+}
+
+.pt4textbox3{
+    position: relative;
+    width: 650px;
+    padding-top: 650px;
+    margin-left: auto; 
+    margin-right: 0;
+    z-index: 5;
+}
+
+
+
+.pt4textbox3 h2{
+    font-size: 150px;
+    line-height: 1;
+}
+
+
+
+.pt4-bkimg1{
+    position: absolute;
+    top: 350px;
+    right:0px;
+    width: 900px;
+}
+
+
+
+.pt4-bkimg3{
+    width: 550px;
+    position: absolute;
+    top: 850px;
+    transform: rotate(330deg);
+    z-index: 1;
+
+    
+}
+
+.pt4-bkimg4{
+    position: absolute;
+    top: 100px;
+
+    z-index: 1;
+
+}
+
+
+.pt4-bkimg5{
+    position: absolute;
+    
+    top: 2300px;
+    right: 0px;
+}
+
+
+
+
+
+
+
+
+.pt5{
+    position: relative;
+    background:
+    #222;
+    color: #e7e7e0;
+    height: 2000px;
+    clip-path: inset(-100% -100% 0% -100%);
+}
+
+.pt5 p{
+    color:#e7e7e0b3;  }        
+
+
+
+
+.pt5textbox1{
+    position: relative;
+    width: 400px;
+    padding-top: 680px;
+    margin-right: auto;
+    margin-left: 150px;
+
+
+}
+
+.pt5textbox2{
+    position: relative;
+    width: 400px;
+    padding-top: 550px;
+    margin-left: auto;
+    margin-right: 150px;
+    z-index: 10;
+
+}
+
+.pt5-bk1{ 
+    position: absolute;
+    top: -400px;
+    left: -100px;
+    width: 1900px;
+    transform: rotate(10deg);
+  
+}
+
+.pt5-bk2{
+    position: absolute;
+    top: 1200px;    
+    width: 1200px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+.pt5-5{
+    position: relative;
+    height: 1300px;
+    overflow: hidden;
+
+}
+
+video {
+    position: absolute;
+    width: 100%;
+    height: 1300px;
+    left: 0;
+    object-fit: cover;
+
+
+}
+
+.pt5-5textbox{
+    position: absolute;
+    width: 100%;
+    top: 250px;
+
+}
+
+
+.dot-overlay{
+    position:absolute;
+    inset:-20% -20%;
+
+    /* 점 패턴 */
+    background-image: radial-gradient(
+        circle,
+        #a0a00033 1px,
+        transparent 1px
+    );
+
+    /* 패턴 크기 */
+    background-size: 6px 6px;
+
+    /* 살짝 회전 */
+    transform: rotate(15deg) scale(1.2);
+
+    /* 자연스럽게 */
+    opacity: .9;
+
+    pointer-events:none;
+}
+
+
+
+
+
+.pt5-5 h1{
+  
+    font-family: "Jersey 10", sans-serif;
+    text-align: center;
+    font-size: 400px;
+    line-height: 0.7;
+    letter-spacing: 10px;
+
+      color: #1a0089;
+    text-shadow: 
+        -5px -5px 0 #e7e7e0,  
+         5px -5px 0 #e7e7e0,
+        -5px  5px 0 #e7e7e0,
+         5px  5px 0 #e7e7e0; 
+}
+
+.wave1{
+    position: absolute;
+    right: 0px;
+    bottom:-50px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+
+.pt6{
+    position: relative;
+    background: url(trendbk2.png);
+    height: 3500px;
+}
+
+
+
+
+
+
+.pt8{
+    position: relative;
+    height: 1700px;
+    background-color: #222;
+   
+}
+
+.pt8 h1{
+    padding-top: 700px;
+    font-family: "Jersey 10", sans-serif;
+    text-align: center;
+    font-size: 400px;
+    line-height: 0.7;
+    letter-spacing: 10px;
+
+    color: #f0c300;
+    text-shadow: 
+        -5px -5px 0 #e7e7e0,  
+         5px -5px 0 #e7e7e0,
+        -5px  5px 0 #e7e7e0,
+         5px  5px 0 #e7e7e0; 
+}
+
+
+
+.footerbar {
+    position: relative;
+    background:#222;
+    height: 400px ;
+    display: flex;
+    list-style: none;
+}
+
+.footercontainer{
+    display: flex;
+    align-items: baseline
+}
+
+
+.footertittle{
+    font-size: 80px;
+    color:#1a0089;
+    padding-right: 50px;
+    font-family: "Jersey 10", sans-serif;
+    line-height: 0.7;
+    text-shadow: 
+        -1px -1px 0 #e7e7e0,  
+         1px -1px 0 #e7e7e0,
+        -1px  1px 0 #e7e7e0,
+         1px  1px 0 #e7e7e0; 
+    
+
+
+}
+
+.footertext{
+    width: 540px;
+    font-size: 12px;
+    color: #8b8b8b;
+    padding-right: 100px;
+}
+
+
+.footerlink{
+    padding-left: 200px;
+}
+
+
+.footerbar a{
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: 100;
+    color:#8b8b8b;
+}
+
+.footerbar p {
+    color: #e7e7e0;
+}
+
+
+
+.footerbar-item{
+    cursor: pointer;
+    
+}
+
+.footerbar-item a:hover{
+    color: #e7e7e0;
+}
+
+
+.Copyright{
+    position: absolute;
+    padding-top: 200px;
+}
+
+
+
+
+
+
+
