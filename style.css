@@ -582,13 +582,13 @@ video {
 
 .pt8{
     position: relative;
-    height: 1900px;
+    height: 1600px;
     background-color: #222;
    
 }
 
 .pt8 h1{
-    padding-top: 700px;
+    padding-top: 500px;
     font-family: "Jersey 10", sans-serif;
     text-align: center;
     font-size: 400px;
